@@ -1,0 +1,86 @@
+.men-display{
+    background-color: grey;
+    height: auto;
+    width: 100%;
+    padding: 150px 0px 0px 0px;
+    box-sizing: border-box;
+}
+.postion-silde{
+   position: relative;
+   bottom: 70px;
+}
+.silder-size{
+    height: 500px;
+    width: 100%;
+}
+.men-product{
+    height: auto;
+    width: 96%;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+    padding: 20px 0px 20px 0px;
+}
+.custom-cardmen{
+    margin-top: 25px;
+    height: 320px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+.custom-mendes{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-img{
+    height: 150px;
+}
+.men-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.custom-menprice{
+    position: relative;
+    bottom: 20px;
+}
+.custom-title{
+    font-size: 15px;
+    color: grey;
+}
+.men-delete{
+    color: green;
+    font-size: 15px;
+    font-weight: 400;
+}
+.men-button{
+    position: relative;
+    bottom: 30px;
+    background-color: orange;
+    color: white;
+}
+@media screen and (max-width:500px){
+    .men-flex{
+        flex-wrap: wrap;
+    }
+    .men-product{
+        position: relative;
+        left: 10px;
+    }
+    .men-delete{
+        font-size: 10px;
+    }
+    .custom-title{
+        font-size: 10px;
+    }
+    .custom-cardmen{
+        height: 300px;
+        width: 150px;
+    }
+    .custom-mendes{
+        font-size: 11px;
+    }
+    .custom-menprice{
+        font-size: 12px;
+    }
+}

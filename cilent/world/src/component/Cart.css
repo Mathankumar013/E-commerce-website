@@ -1,0 +1,32 @@
+.addcart-display{
+    background-color: grey;
+    height: auto;
+    width: 100%;
+    padding: 109px 0px 0px 0px;
+}
+.text-center{
+    height: 98vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+.container{
+    position: relative;
+    bottom: 50px;
+}
+.col-auto{
+    color: white;
+}
+.total{
+    color: orange;
+}
+.h3{
+    color: white;
+}
+.items-total{
+    color: orange;
+}

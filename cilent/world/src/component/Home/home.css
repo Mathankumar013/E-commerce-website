@@ -1,0 +1,92 @@
+.home-silder{
+    background-color: grey;
+    height: auto;
+    width: 100%;
+    padding: 85px 0px 0px 0px;
+    box-sizing: border-box;
+}
+.custom-carousel{
+    position: relative;
+}
+.silder{
+    height: 270px;
+    width: 100%;
+}
+.custom-product{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    height: auto;
+    width: 96%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0px 0px 10px 0px;
+}
+.custom-product h3{
+    padding: 20px 0px 0px 40px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h5{
+    padding: 20px 0px 0px 40px;
+    margin-bottom: 10px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.custom-cardhome{
+    height: 250px;
+    width: 170px;
+    margin-bottom: 10px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.custom-imghome{
+    height: 200px;
+    position: relative;
+    top: 0px;
+}
+.custom-card-product{
+    display: flex;
+    justify-content: space-evenly;
+}
+.destination{
+    padding: 80px 80px 10px 50px;
+    text-align: justify;
+}
+.destination h4{
+    font-weight: 500;
+}
+.destination-p{
+    font-size: 16px;
+    color: whitesmoke;
+}
+.destination-title{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+.contact-socialmedia{
+   font-size: 17px;
+   font-weight: 600;
+}
+.contact{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.contact-bottom{
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:500px) {
+    .custom-card-product{
+        flex-wrap: wrap;
+    }
+    .custom-product{
+        width: 85%;
+    }
+}

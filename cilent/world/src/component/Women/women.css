@@ -1,0 +1,86 @@
+.women-display{
+    background-color: grey;
+    height: auto;
+    width: 100%;
+    padding: 150px 0px 0px 0px;
+    box-sizing: border-box;
+}
+.custom-women{
+    height: 500px;
+    width: 100%;
+}
+.women-postion{
+    position: relative;
+    bottom: 70px;
+}
+.women-product{
+    height: auto;
+    width: 96%;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+    padding: 20px 0px 20px 0px;
+}
+.custom-cardwomen{
+    margin-top: 25px;
+    height: 320px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+.custom-womenimg{
+    height: 150px;
+}
+.custom-womendes{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.women-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.custom-womenprice{
+    position: relative;
+    bottom: 20px;
+}
+.custom-womentitle{
+    font-size: 15px;
+    color: grey;
+}
+.women-delete{
+    color: green;
+    font-size: 15px;
+    font-weight: 400;
+}
+.women-button{
+    position: relative;
+    bottom: 30px;
+    background-color: orange;
+    color: white;
+}
+@media screen and (max-width:500px){
+    .women-flex{
+        flex-wrap: wrap;
+    }
+    .women-product{
+        position: relative;
+        left: 10px;
+    }
+    .women-delete{
+        font-size: 10px;
+    }
+    .custom-womentitle{
+        font-size: 10px;
+    }
+    .custom-cardwomen{
+        height: 300px;
+        width: 150px;
+    }
+    .custom-womendes{
+        font-size: 11px;
+    }
+    .custom-womenprice{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,88 @@
+.shoe-display{
+    background-color: grey;
+    height: auto;
+    width: 100%;
+    padding: 150px 0px 0px 0px;
+    box-sizing: border-box;
+}
+.shoe-size{
+    height: 500px;
+    width: 100%;
+}
+.shoe-postion{
+    position: relative;
+    bottom: 70px;
+}
+.shoe-product{
+    height: auto;
+    width: 96%;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+    padding: 20px 0px 20px 0px;
+}
+.custom-cardshoe{
+    margin-top: 25px;
+    height: 320px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+.card-shoeimg{
+    height: 150px;
+}
+.shoe-title{
+    font-size: 15px;
+    color: grey;
+}
+.shoe-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 4;
+}
+.shoe-des{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.shoe-price{
+    position: relative;
+    bottom: 20px;
+}
+.shoe-delete{
+    color: green;
+    font-size: 15px;
+    font-weight: 400;
+}
+.shoe-button{
+    position: relative;
+    bottom: 30px;
+    background-color: orange;
+    color: white;
+}
+@media screen and (max-width:500px){
+    .shoe-flex{
+        flex-wrap: wrap;
+    }
+    .shoe-product{
+        position: relative;
+        left: 10px;
+    }
+    .shoe-delete{
+        font-size:10px;
+    }
+    .shoe-title{
+        font-size: 10px;
+    }
+    .custom-cardshoe{
+        height: 300px;
+        width: 150px;
+    }
+    .shoe-price{
+        font-size: 12px;
+    }
+    .shoe-des{
+        font-size: 11px;
+    }
+}

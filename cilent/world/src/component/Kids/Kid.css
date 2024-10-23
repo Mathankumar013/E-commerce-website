@@ -1,0 +1,86 @@
+.kid-display{
+    background-color: grey;
+    height: auto;
+    width: 100%;
+    padding: 150px 0px 0px 0px;
+    box-sizing: border-box;
+}
+.kid-silde{
+   position: relative;
+   bottom: 70px;
+}
+.silder-kidsize{
+    height: 500px;
+    width: 100%;
+}
+.kid-product{
+    height: auto;
+    width: 96%;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+    padding: 20px 0px 20px 0px;
+}
+.custom-cardkid{
+    margin-top: 25px;
+    height: 320px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+.custom-kiddes{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-kidimg{
+    height: 150px;
+}
+.kid-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.custom-kidprice{
+    position: relative;
+    bottom: 20px;
+}
+.custom-kidtitle{
+    font-size: 15px;
+    color: grey;
+}
+.kid-delete{
+    color: green;
+    font-size: 15px;
+    font-weight: 400;
+}
+.kid-button{
+    position: relative;
+    bottom: 30px;
+    background-color: orange;
+    color: white;
+}
+@media screen and (max-width:500px){
+    .kid-flex{
+        flex-wrap: wrap;
+    }
+    .kid-product{
+        position: relative;
+        left: 10px;
+    }
+    .kid-delete{
+        font-size: 10px;
+    }
+    .custom-kidtitle{
+        font-size: 10px;
+    }
+    .custom-cardkid{
+        height: 300px;
+        width: 150px;
+    }
+    .custom-kiddes{
+        font-size: 11px;
+    }
+    .custom-kidprice{
+        font-size: 12px;
+    }
+}
